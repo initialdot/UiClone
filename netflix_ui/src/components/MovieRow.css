@@ -1,0 +1,32 @@
+.movieRow {
+    margin-bottom: 30px;
+}
+
+.movieRow h2 {
+    margin: 0px 0px 0px 30px; /* cima, direita, baixo, esquerda */
+}
+
+.movieRow--listarea {
+    overflow-x: hidden; /* tudo que passar da direita na tela, será cortado */
+    padding-left: 30px;
+}
+
+.movieRow--list {
+    width: 99999999px;
+}
+
+.movieRow--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img {
+    width: 100%;
+    transform: scale(0.9); /* reduz em 10% o tamanho da imagem */
+    transition: all ease 0.3s; /* animação para a transição da imagem */
+}
+
+.movieRow--item img:hover {
+    transform: scale(1.1); /* passando o mouse, a imagem fica com 110% */
+}
